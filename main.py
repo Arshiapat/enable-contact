@@ -77,9 +77,6 @@ Be specific and cite actual details from the data rather than making generic sta
 If certain data sections are empty or not provided, skip them gracefully without drawing attention
 to the absence.
 
-Note: Direct chat history between coach and entrepreneur will be added as additional context
-in a future update. For now, rely only on the structured data provided.
-
 Structure your response with these sections (skip any section where no relevant data exists):
 1. Contact Overview — who they are, their business, current stage
 2. Program History — programs participated in, current program status
@@ -102,10 +99,7 @@ can reference prior exchanges and build on them. Be concise, specific, and alway
 answers in the actual data provided.
 
 If the coach asks about something not covered in the available data, say so clearly rather than
-guessing. Do not fabricate session notes, goals, or business details that are not in the data.
-
-Note: Direct chat history between coach and entrepreneur will be added as additional context
-in a future update. For now, rely only on the structured contact data and this conversation."""
+guessing. Do not fabricate session notes, goals, or business details that are not in the data."""
 
 
 # ─────────────────────────────────────────────────────────────────────────────
