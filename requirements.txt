@@ -1,0 +1,30 @@
+# Core AI / Azure
+openai>=1.0.0
+
+# API framework
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9
+aiofiles>=23.0.0
+requests>=2.31.0
+
+# Document extraction — born-digital
+pdfplumber>=0.10.0
+python-docx>=0.8.11
+
+# OCR — scanned documents, handwritten notes, image files
+pytesseract>=0.3.10
+Pillow>=10.0.0
+pdf2image>=1.16.0
+# NOTE: pytesseract requires the Tesseract binary installed at the OS level:
+#   macOS:   brew install tesseract
+#   Linux:   sudo apt-get install tesseract-ocr
+
+# Database
+sqlalchemy>=2.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Pydantic (FastAPI depends on this — pin to v2)
+pydantic>=2.0.0
